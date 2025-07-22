@@ -1,9 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "ssr/server/server-entry.js", "use": "@vercel/node" }
+    {
+      "src": "dist/ssr/index.js",
+      "use": "@vercel/node"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "ssr/server/server-entry.js" }
+    {
+      "src": "/(.*)",
+      "dest": "dist/ssr/index.js"
+    }
   ]
 }
