@@ -6,14 +6,14 @@
       "use": "@vercel/static-build"
     },
     {
-      "src": "ssr/index.js",
+      "src": "ssr/render-template.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "ssr/index.js"
+      "dest": "ssr/render-template.js"
     }
   ]
 }
