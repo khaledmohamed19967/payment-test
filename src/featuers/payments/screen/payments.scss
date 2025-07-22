@@ -1,0 +1,21 @@
+.buttons-actions {
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+
+.buttons-actions :deep(button) {
+  margin-bottom: 8px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.notes {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.notes :deep(p) {
+  color: rgba(21, 153, 65, 1) !important;
+}

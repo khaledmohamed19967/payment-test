@@ -1,0 +1,71 @@
+p {
+  font-size: 16px;
+}
+
+/*
+ * ----------------------------
+ * Text font weight
+ * ----------------------------
+ */
+.text-font-600 {
+  font-weight: 600;
+}
+
+.text-font-500 {
+  font-weight: 500;
+}
+
+/*
+ * ----------------------------
+ * Text font size
+ * ----------------------------
+ */
+
+.text-18 {
+  font-size: 18px // 18
+}
+
+
+
+.text-caption-10 {
+  font-size: 10px;
+}
+
+.text-caption-8 {
+  font-size: 8px;
+}
+
+.primary {
+  color: var(--q-app-primary-color) !important;
+}
+
+.white {
+  color: #ffffff  !important;
+}
+
+.dark {
+  color: rgba(13, 13, 13, 1) !important;
+}
+
+.black-2E {
+  color: #2e2e2e  !important;
+}
+
+.dark-gray {
+  color: var(--q-app-color-dark-gray) !important;
+}
+
+.dark-gray-217 {
+  color: rgba(217, 217, 217, 1)!important;
+}
+
+.dark-77 {
+  color: rgba(77, 77, 77, 1);
+}
+
+.body--dark {
+ p, span {
+    color: #ffffff !important;
+  }
+}
+
